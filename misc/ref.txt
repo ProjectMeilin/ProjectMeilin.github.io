@@ -1,0 +1,17 @@
+## Install & Setup
+http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/
+
+
+## Update Pages
+source ENV/bin/activate
+git checkout source         ( then editing your articles in content/*.md )
+
+make html
+make serve                  ( check at localhost:8000 )
+
+git branch -D gh-pages
+git branch gh-pages
+ghp-import output
+git checkout master
+git merge gh-pages
+git push --all
