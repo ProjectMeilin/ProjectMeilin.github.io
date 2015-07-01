@@ -11,8 +11,27 @@ SITEURL = ''#'https://projectmeilin.github.io'
 PATH = 'content'
 
 TIMEZONE = 'Asia/Taipei'
+DEFAULT_LANG = u'zh'
+DATE_FORMATS = {
+    'en': '%Y-%m-%d %H:%M',
+    'ja': '%Y-%m-%d %H:%M (%a)',
+    'zh': '%Y-%m-%d %H:%M',
+}
 
-DEFAULT_LANG = u'zh-TW'
+#ARTICLE_URL = 'archives/{slug}/'
+#ARTICLE_SAVE_AS = 'archives/{slug}/index.html'
+#FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
+FILENAME_METADATA = '(?P<slug>.*)'  # use markdown file name as the slug meta
+USE_FOLDER_AS_CATEGORY = True       # use folder name as posts' category
+ARTICLE_URL = '{lang}/{category}/{slug}.html'
+ARTICLE_SAVE_AS = ARTICLE_URL
+ARTICLE_LANG_URL = '{lang}/{category}/{slug}.html'
+ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = PAGE_URL
+CATEGORY_URL = '{slug}/index.html'
+CATEGORY_SAVE_AS = CATEGORY_URL
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

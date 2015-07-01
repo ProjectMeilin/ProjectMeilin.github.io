@@ -1,0 +1,18 @@
+# File naming rules
+{slug}-{category}-{lang}.md
+
+
+# For Example:   ( content/testing-python-zh.md )
+Title: Test
+Date: 2015-06-30 16:00:01
+Category: Python
+Tags: python
+Author: kilfu0701
+Summary: Test
+Slug: testing
+Lang: zh
+
+Test it
+
+
+# It will build as 'output/zh/python/testing.html'
