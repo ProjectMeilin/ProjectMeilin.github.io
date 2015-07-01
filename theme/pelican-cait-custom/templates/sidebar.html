@@ -9,8 +9,8 @@
     <nav>
         <ul id="nav-links">
             {% if USE_CUSTOM_MENU %}
-            {% for name, url in CUSTOM_MENUITEMS %}
-                <li><a href="{{ SITEURL }}/{{ url }}">{{ name }}</a></li>
+            {% for name, url, target in CUSTOM_MENUITEMS %}
+                <li><a href="{{ url }}" target="{{ target }}">{{ name }}</a></li>
             {% endfor %}
             {% else %}
             {% for page in PAGES %}
