@@ -3,5 +3,13 @@
 }
 
 #site-desc {
-    text-align: center;
+    text-align: left;
+}
+
+span.mandarin {
+    color: #EE82EE;
+}
+
+span.japanese {
+    color: #FFD700;
 }

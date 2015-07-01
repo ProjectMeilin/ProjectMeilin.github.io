@@ -32,7 +32,8 @@ body {
 
 #site-desc {
   font-size: 1.3em;
-  padding: 0 6px; }
+  padding: 6px 30px;
+}
 
 #post-container {
   position: relative;

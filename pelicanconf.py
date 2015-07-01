@@ -7,7 +7,14 @@ SITENAME = u'徵音梅林'
 
 # Test for local, leave it blank.
 SITEURL = ''  #'https://projectmeilin.github.io'
-SITESUBTITLE = u'虛擬歌手'
+SITESUBTITLE = (
+    u'一個真正自由的虛擬歌手，任你發想各種創意。'
+    u'<br><br>'
+    u'語言：<span class="japanese">日語</span>、<span class="mandarin">華語</span>'
+    u'<br><br>'
+    u'&#10071; <span class="japanese">日語</span>已完成，<span class="mandarin">華語</span>製作中'
+)
+
 PATH = 'content'
 
 TIMEZONE = 'Asia/Taipei'
