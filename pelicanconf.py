@@ -6,8 +6,8 @@ AUTHOR = u'kilfu0701'
 SITENAME = u'徵音梅林'
 
 # Test for local, leave it blank.
-SITEURL = ''#'https://projectmeilin.github.io'
-
+SITEURL = ''  #'https://projectmeilin.github.io'
+SITESUBTITLE = u'虛擬歌手'
 PATH = 'content'
 
 TIMEZONE = 'Asia/Taipei'
@@ -49,8 +49,10 @@ LINKS = (
 )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    #('You can add links in your config file', '#'),
+    #('Another social link', '#'),
+)
 
 DEFAULT_PAGINATION = 10
 
