@@ -1,0 +1,20 @@
+#site-header h1 {
+    text-align: center;
+}
+
+#site-desc {
+    text-align: left;
+    line-height: 1.3em;
+}
+
+span.mandarin {
+    color: #EE82EE;
+}
+
+span.japanese {
+    color: #FFD700;
+}
+
+div.side-desc-line {
+    margin: 5px 0;
+}
