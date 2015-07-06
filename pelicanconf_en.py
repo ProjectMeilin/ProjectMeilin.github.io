@@ -29,11 +29,11 @@ DATE_FORMATS = {
 #FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 FILENAME_METADATA = '(?P<slug>.*)'  # use markdown file name as the slug meta
 USE_FOLDER_AS_CATEGORY = True       # use folder name as posts' category
-ARTICLE_URL = '{category}/{slug}_{lang}.html'
+ARTICLE_URL = '{lang}/{category}/{slug}.html'
 ARTICLE_SAVE_AS = ARTICLE_URL
-ARTICLE_LANG_URL = '{category}/{slug}_{lang}.html'
+ARTICLE_LANG_URL = '{lang}/{category}/{slug}.html'
 ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL
-PAGE_URL = '{slug}_{lang}.html'
+PAGE_URL = '{lang}/{slug}.html'
 PAGE_SAVE_AS = PAGE_URL
 CATEGORY_URL = '{slug}/index.html'
 CATEGORY_SAVE_AS = CATEGORY_URL
@@ -72,9 +72,9 @@ SOCIAL = (
 USE_CUSTOM_MENU = True
 CUSTOM_MENUITEMS = (
     ('Project', 'https://github.com/ProjectMeilin', '_blank'),
-    ('Download', '//projectmeilin.github.io/zh/download/index.html', ''),
-    ('Document', '//projectmeilin.github.io/zh/document/index.html', ''),
-    ('Contact', '//projectmeilin.github.io/zh/help/contact.html', ''),
+    ('Download', 'download/index.html', ''),
+    ('Document', 'document/index.html', ''),
+    ('Contact', 'help/contact.html', ''),
 )
 
 DEFAULT_PAGINATION = 10
