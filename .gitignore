@@ -1,0 +1,5 @@
+ENV/
+*.swp
+*.pyc
+.sass-cache
+output_*
