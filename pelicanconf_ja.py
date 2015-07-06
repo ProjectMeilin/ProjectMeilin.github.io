@@ -15,7 +15,7 @@ SITESUBTITLE = (
 PATH = 'content'
 
 TIMEZONE = 'Asia/Taipei'
-DEFAULT_LANG = 'zh'
+DEFAULT_LANG = 'ja'
 LOCALE = 'en_US.UTF-8'
 
 DATE_FORMATS = {
