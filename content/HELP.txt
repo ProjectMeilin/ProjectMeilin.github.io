@@ -1,8 +1,8 @@
 # File naming rules
-{slug}-{category}-{lang}.md
+{lang}/{category}-{slug}.md
 
 
-# For Example:   ( content/testing-python-zh.md )
+# For Example:   ( content/python-testing-zh.md )
 Title: Test
 Date: 2015-06-30 16:00:01
 Category: Python

@@ -12,7 +12,7 @@ SITESUBTITLE = (
     u'<br>'
     u'&#10071; <span class="japanese">日本語ONLY</span>版，<span class="mandarin">日華語</span>版'
 )
-PATH = 'content'
+PATH = 'content/en'
 
 TIMEZONE = 'Asia/Taipei'
 DEFAULT_LANG = 'en'
@@ -33,7 +33,7 @@ ARTICLE_URL = '{category}/{slug}_{lang}.html'
 ARTICLE_SAVE_AS = ARTICLE_URL
 ARTICLE_LANG_URL = '{category}/{slug}_{lang}.html'
 ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL
-PAGE_URL = '{slug}.html'
+PAGE_URL = '{slug}_{lang}.html'
 PAGE_SAVE_AS = PAGE_URL
 CATEGORY_URL = '{slug}/index.html'
 CATEGORY_SAVE_AS = CATEGORY_URL
