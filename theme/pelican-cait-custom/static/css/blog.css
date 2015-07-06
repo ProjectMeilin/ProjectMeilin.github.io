@@ -11,7 +11,7 @@ body {
   right: auto;
   top: 0;
   /*width: 25%;*/
-  width: 375px;
+  width: 350px;
   min-width: 200px;
   padding-left: 8px;
   padding-right: 8px;
@@ -58,7 +58,7 @@ body {
     border-radius: 24px;
     display: inline-block;
     border: 3px solid #eeeeee;
-    line-height: 1.3em;
+    line-height: 1.8em;
     text-align: center;
     width: 150px;
     min-width: 100px;

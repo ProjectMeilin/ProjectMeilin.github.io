@@ -14,3 +14,7 @@ span.mandarin {
 span.japanese {
     color: #FFD700;
 }
+
+div.side-desc-line {
+    margin: 5px 0;
+}
