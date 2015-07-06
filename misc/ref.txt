@@ -10,7 +10,7 @@ git checkout gh-pages
 git fetch --all
 git checkout origin/source -- output
 cp -pr output/* ./ && rm -rf output
-git commit -m "update new files to gh-pages"
+git add . && git commit -m "update new files to gh-pages"
 
 git checkout master
 git merge gh-pages
