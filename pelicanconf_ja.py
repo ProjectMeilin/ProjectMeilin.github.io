@@ -29,13 +29,13 @@ DATE_FORMATS = {
 #FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 FILENAME_METADATA = '(?P<slug>.*)'  # use markdown file name as the slug meta
 USE_FOLDER_AS_CATEGORY = True       # use folder name as posts' category
-ARTICLE_URL = '{lang}/{category}/{slug}.html'
+ARTICLE_URL = '{category}/{slug}.html'
 ARTICLE_SAVE_AS = ARTICLE_URL
-ARTICLE_LANG_URL = '{lang}/{category}/{slug}.html'
+ARTICLE_LANG_URL = '{category}/{slug}.html'
 ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL
-PAGE_URL = '{lang}/{slug}.html'
+PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = PAGE_URL
-CATEGORY_URL = '{slug}/index.html'
+CATEGORY_URL = '{slug}/category_index.html'
 CATEGORY_SAVE_AS = CATEGORY_URL
 
 
