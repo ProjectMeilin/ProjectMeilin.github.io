@@ -1,6 +1,8 @@
 #!/bin/bash
 source ENV/bin/activate
 
+rm -rf output
+
 all_lang=( "en" "ja" "zh" )
 for i in "${all_lang[@]}"
 do
@@ -8,8 +10,10 @@ do
     echo "build ${i} ...."
     cp -pr pelicanconf_${i}.py pelicanconf.py
     #make html
-    pelican content/${i} -o output -s pelicanconf.py
+    pelican content/${i} -o output/${i} -s pelicanconf.py
     rm -rf /var/www/html/linne_pelican/${i}
-    cp -pr output /var/www/html/linne_pelican/${i}
-    rm -rf output
+    cp -pr output/${i} /var/www/html/linne_pelican/${i}
+    #rm -rf output
 done
+
+cp index.html output/index.html
