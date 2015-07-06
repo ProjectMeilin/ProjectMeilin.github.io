@@ -3,13 +3,15 @@ http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/
 
 ## New Articles & Update to github page
 ./build.sh
-cp -pr output/ /tmp/output/
 git add .
 git commit -m "your update notes"
+
 git checkout gh-pages
-cp -pr /tmp/output/* ./
-git add .
-git commit -m "update new files"
+git fetch --all
+git checkout origin/source -- output
+cp -pr output/* ./ && rm -rf output
+git commit -m "update new files to gh-pages"
+
 git checkout master
 git merge gh-pages
 git push --all
