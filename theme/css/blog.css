@@ -53,12 +53,13 @@ body {
     width: 40%;
   }
   #nav-links a {
-    padding: 0 24px;
+    padding: 0 2px;
     border-radius: 24px;
     display: inline-block;
     border: 3px solid #eeeeee;
     line-height: 1.8em;
     text-align: center;
+    width: 150px;
     min-width: 100px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
