@@ -15,6 +15,7 @@ body {
   min-width: 200px;
   padding-left: 8px;
   padding-right: 8px;
+  overflow: scroll;
   color: #eeeeee; }
   #sidebar a {
     color: #eeeeee;
@@ -39,7 +40,8 @@ body {
 #post-container {
   position: relative;
   margin-left: 27%;
-  max-width: 800px;
+  max-width: 1000px;
+  min-width: 600px;
   overflow-wrap: break-word; }
 
 #nav-links {

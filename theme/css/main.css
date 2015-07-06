@@ -76,10 +76,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 #site-info {
-  margin-top: 1.5em;
+  /*margin: 1.5em 0;*/
   font-size: 0.7em;
   text-align: center;
-  color: #38c5c5; }
+  color: #38c5c5;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  width: 95%;
+  padding: 10px 0;
+  }
   #site-info a {
     color: #eeeeee; }
 
