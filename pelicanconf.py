@@ -4,21 +4,20 @@ from __future__ import unicode_literals
 
 AUTHOR = u'kilfu0701'
 SITENAME = u'徵音梅林'
-
-# Test for local, leave it blank.
 SITEURL = ''  #'https://projectmeilin.github.io'
 SITESUBTITLE = (
     u'一個真正自由的虛擬歌手，任你發想各種創意。'
     u'<br>'
     u'語言：<span class="japanese">日語</span>、<span class="mandarin">華語</span>'
     u'<br>'
-    u'&#10071; <span class="japanese">日語</span>已完成，<span class="mandarin">華語</span>製作中'
+    u'&#10071; <span class="japanese">日本語ONLY</span>版，<span class="mandarin">日華語</span>版'
 )
-
 PATH = 'content'
 
 TIMEZONE = 'Asia/Taipei'
 DEFAULT_LANG = u'zh'
+LOCALE = 'en_US.UTF-8'
+
 DATE_FORMATS = {
     'en': '%Y-%m-%d %H:%M',
     'ja': '%Y-%m-%d %H:%M (%a)',
@@ -39,6 +38,15 @@ PAGE_SAVE_AS = PAGE_URL
 CATEGORY_URL = '{slug}/index.html'
 CATEGORY_SAVE_AS = CATEGORY_URL
 
+
+# Load plugins
+#PLUGIN_PATHS = ['plugins']
+#PLUGINS = ['i18n_subsites']
+#I18N_SUBSITES = {
+#    'ja': {
+#        'SITENAME': '',
+#        }
+#    }
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
