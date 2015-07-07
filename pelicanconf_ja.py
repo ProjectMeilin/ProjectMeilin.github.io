@@ -6,9 +6,11 @@ AUTHOR = u'kilfu0701'
 SITENAME = u'徵音梅林'
 SITEURL = ''  #'https://projectmeilin.github.io'
 SITESUBTITLE = (
-    u'<div class="side-desc-line">一個真正自由的虛擬歌手，任你發想各種創意。</div>'
-    u'<div class="side-desc-line">語言：<span class="japanese">日語</span>、<span class="mandarin">華語</span></div>'
-    u'&#10071; <span class="japanese">日本語ONLY</span>版，<span class="mandarin">日華語</span>版'
+    u'<div>'
+    u' <div class="side-desc-line">一個真正自由的虛擬歌手，任你發想各種創意。</div>'
+    u' <div class="side-desc-line">語言：<span class="japanese">日語</span>、<span class="mandarin">華語</span></div>'
+    #u'&#10071; <span class="japanese">日本語ONLY</span>版，<span class="mandarin">日華語</span>版'
+    u'</div>'
 )
 PATH = 'content/ja'
 
