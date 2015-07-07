@@ -18,3 +18,9 @@ span.japanese {
 div.side-desc-line {
     margin: 5px 0;
 }
+
+.sub-lead-title {
+    font-size: 1.3em;
+    margin: 35px 0 10px 0;
+    color: brown;
+}
