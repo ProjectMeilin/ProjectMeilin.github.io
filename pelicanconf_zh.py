@@ -17,7 +17,7 @@ PATH = 'content/zh'
 TIMEZONE = 'Asia/Taipei'
 DEFAULT_LANG = 'zh'
 LOCALE = 'en_US.UTF-8'
-
+GOOGLE_ANALYTICS = True
 DATE_FORMATS = {
     'en': '%Y-%m-%d %H:%M',
     'ja': '%Y-%m-%d %H:%M (%a)',
