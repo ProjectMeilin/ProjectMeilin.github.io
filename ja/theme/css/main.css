@@ -81,7 +81,7 @@ textarea {
   text-align: center;
   color: #38c5c5;
   clear: both;
-  position: absolute;
+  position: relative;
   bottom: 0;
   z-index: 10;
   width: 95%;
