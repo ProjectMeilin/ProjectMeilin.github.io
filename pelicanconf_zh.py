@@ -72,9 +72,9 @@ SOCIAL = (
 USE_CUSTOM_MENU = True
 CUSTOM_MENUITEMS = (
     (u'關於專案', 'https://github.com/ProjectMeilin', '_blank'),
-    (u'下載檔案', 'download/index.html', ''),
-    (u'教學文件', 'document/index.html', ''),
-    (u'聯絡我們', 'help/contact.html', ''),
+    (u'下載檔案', '/zh/download/index.html', ''),
+    (u'教學文件', '/zh/document/index.html', ''),
+    (u'聯絡我們', '/zh/help/contact.html', ''),
 )
 
 DEFAULT_PAGINATION = 10

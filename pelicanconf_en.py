@@ -72,9 +72,9 @@ SOCIAL = (
 USE_CUSTOM_MENU = True
 CUSTOM_MENUITEMS = (
     ('Project', 'https://github.com/ProjectMeilin', '_blank'),
-    ('Download', 'download/index.html', ''),
-    ('Document', 'document/index.html', ''),
-    ('Contact', 'help/contact.html', ''),
+    ('Download', '/en/download/index.html', ''),
+    ('Document', '/en/document/index.html', ''),
+    ('Contact', '/en/help/contact.html', ''),
 )
 
 DEFAULT_PAGINATION = 10
