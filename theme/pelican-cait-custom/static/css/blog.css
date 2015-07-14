@@ -41,7 +41,7 @@ body {
   position: relative;
   margin-left: 27%;
   max-width: 1000px;
-  min-width: 600px;
+  /*min-width: 600px;*/
   overflow-wrap: break-word; }
 
 #nav-links {
@@ -84,7 +84,7 @@ body {
   font-family: "Oswald", sans-serif;
   font-variant: bold; }
   .entry-header a {
-    color: #272822;
+    color: mediumaquamarine;
     text-decoration: none; }
   .entry-header a:hover {
     color: #38c5c5;
