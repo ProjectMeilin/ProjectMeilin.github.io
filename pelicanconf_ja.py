@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'kilfu0701'
 SITENAME = u'徵音梅林'
+SITE_DESCRIPTION = u'一個真正自由的虛擬歌手，任你發想各種創意。'
 DEFAULT_LANG = 'ja'
 SITEURL = ''  #'https://projectmeilin.github.io'
 SITEURL_WITH_L10N = '/' + DEFAULT_LANG
