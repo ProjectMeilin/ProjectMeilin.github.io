@@ -6,7 +6,7 @@ AUTHOR = u'kilfu0701'
 SITENAME = u'徵音梅林'
 DEFAULT_LANG = 'ja'
 SITEURL = ''  #'https://projectmeilin.github.io'
-SITEURL_WITH_L10N = DEFAULT_LANG
+SITEURL_WITH_L10N = '/' + DEFAULT_LANG
 SITESUBTITLE = (
     u'<div>'
     u' <div class="side-desc-line">一個真正自由的虛擬歌手，任你發想各種創意。</div>'
