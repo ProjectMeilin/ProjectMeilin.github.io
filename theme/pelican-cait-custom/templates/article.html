@@ -30,7 +30,7 @@
                     <aside class="post-meta">
                         <p>Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></p>
                         {% if article.tags %}
-                        <p>Tags: {% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>, {% endfor %}</p>
+                        <p>Tags: {% for tag in article.tags %}<a href="{{ SITEURL_WITH_L10N }}/{{ tag.url }}">{{ tag }}</a>, {% endfor %}</p>
                         {% endif %}
                     </aside>
                     <hr/>

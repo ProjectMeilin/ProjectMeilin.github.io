@@ -4,7 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'kilfu0701'
 SITENAME = u'徵音梅林'
+DEFAULT_LANG = 'ja'
 SITEURL = ''  #'https://projectmeilin.github.io'
+SITEURL_WITH_L10N = DEFAULT_LANG
 SITESUBTITLE = (
     u'<div>'
     u' <div class="side-desc-line">一個真正自由的虛擬歌手，任你發想各種創意。</div>'
@@ -15,7 +17,6 @@ SITESUBTITLE = (
 PATH = 'content/ja'
 
 TIMEZONE = 'Asia/Taipei'
-DEFAULT_LANG = 'ja'
 LOCALE = 'en_US.UTF-8'
 GOOGLE_ANALYTICS = True
 DATE_FORMATS = {
@@ -35,8 +36,8 @@ ARTICLE_LANG_URL = '{lang}/{category}/{slug}.html'
 ARTICLE_LANG_SAVE_AS = ARTICLE_SAVE_AS
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = PAGE_URL
-CATEGORY_URL = '{slug}/category_index.html'
-CATEGORY_SAVE_AS = CATEGORY_URL
+CATEGORY_URL = DEFAULT_LANG + '/category/{slug}.html'
+CATEGORY_SAVE_AS = 'category/{slug}.html'
 
 
 # Load plugins
@@ -72,9 +73,9 @@ SOCIAL = (
 USE_CUSTOM_MENU = True
 CUSTOM_MENUITEMS = (
     ('Project', 'https://github.com/ProjectMeilin', '_blank'),
-    ('Download', '/ja/download/index.html', ''),
-    ('Document', '/ja/document/index.html', ''),
-    ('Contact', '/ja/help/contact.html', ''),
+    ('Download', '/' + DEFAULT_LANG + '/download/index.html', ''),
+    ('Document', '/' + DEFAULT_LANG + '/document/index.html', ''),
+    ('Contact', '/' + DEFAULT_LANG + '/help/contact.html', ''),
 )
 
 DEFAULT_PAGINATION = 10
