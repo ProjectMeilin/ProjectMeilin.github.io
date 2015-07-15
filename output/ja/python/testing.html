@@ -27,6 +27,25 @@
         <script type="text/javascript">var switchTo5x=true;</script>
         <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
         <script type="text/javascript">stLight.options({publisher: "4d95453f-d70d-441b-bc1e-b7dd01319033", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <!-- i18n part -->
+        <script type="text/javascript" src="/theme/js/i18next-1.10.1.min.js"></script>
+        <script type="text/javascript">
+        var lang = 'ja' || 'zh';
+        var options = {
+            lng: lang,
+            fallbackLng: lang,
+            localStorageCacheTime: 86400,
+            //fileName: 'translation',
+            resGetPath: '/theme/locales/__lng__.json'
+        };
+        $(document).ready(function() {
+            i18n.init(options, function(err, t) {
+                $('body').i18n();
+            });
+        });
+        </script>
+        <!-- end i18n -->
     </head>
     <body>
         <!--[if lt IE 7]>

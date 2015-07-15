@@ -42,7 +42,7 @@
                     </a>
                 {% endif %}
             {% endif %}
-            Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}
+            <span data-i18n="pager">Page</span> {{ articles_page.number }} / {{ articles_paginator.num_pages }}
             {% if articles_page.has_next() %}
                 <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html">
                     <i class="icon-circle-arrow-right"></i>
