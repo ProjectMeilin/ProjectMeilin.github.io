@@ -10,9 +10,13 @@
 span.mandarin {
     color: #EE82EE;
 }
-
 span.japanese {
     color: #FFD700;
+}
+span.normal-content {
+    display: inline-block;
+    line-height: 1.7em;
+    padding: 5px 0;
 }
 
 div.side-desc-line {
@@ -23,4 +27,29 @@ div.side-desc-line {
     font-size: 1.3em;
     margin: 35px 0 10px 0;
     color: brown;
+}
+
+/* padding lists */
+.pad5 { padding: 5px; }
+.pad10 { padding: 10px; }
+.pad15 { padding: 15px; }
+.pad20 { padding: 20px; }
+
+/* margin lists */
+.mrg5 { margin: 5px; }
+.mrg10 { margin: 10px; }
+.mrg15 { margin: 15px; }
+.mrg20 { margin: 20px; }
+
+/* ul & li */
+ul.listview {
+
+}
+ul.listview > li {
+    padding: 3px 0;
+}
+ul.listview > li span.list-title {
+    /*width: 80px;*/
+    display: inline-block;
+    font-weight: bold;
 }
