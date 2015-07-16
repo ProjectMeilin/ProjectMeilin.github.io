@@ -1,11 +1,11 @@
 Title: 教學文件
-Date: 2015-07-07 14:45:00
+Date: 2015-07-16 11:28:00
 Category: Document
 Tags: document
 Author: kilfu0701
 Summary: 安裝設定，使用教學介紹等等。
 Slug: index
-Lang: zh
+Lang: en
 
 <div>
   <div class="sub-lead-title">Linne介紹：</div>
