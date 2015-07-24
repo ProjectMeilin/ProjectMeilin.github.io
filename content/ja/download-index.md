@@ -10,7 +10,7 @@ Lang: ja
 <div>
   <div class="sub-lead-title">
     <ruby>
-        徵 <rp>(</rp><rt>ち</rt><rp>)</rp>
+        徴 <rp>(</rp><rt>ち</rt><rp>)</rp>
         音 <rp>(</rp><rt>おん</rt><rp>)</rp>
         梅林 <rp>(</rp><rt>メイリン</rt><rp>)</rp>
     </ruby>
@@ -25,7 +25,7 @@ Lang: ja
   </ul>
   <div class="pad10">最新バージョンは<b>V1.0</b>，<b>日本語のみ</b></div>
   <div class="pad10">
-    <div><a href="#">Utau版 ダウンロード</a>（World版合成エンジンを使用することはおすすめします）</div>
-    <div><a href="#">Linne版 ダウンロード</a></div>
+    <div><a href="https://www.dropbox.com/s/sjyymd0cgk85zcy/ChiOnMeiLin-V1.zip?dl=0" target="_blank">Utau版 ダウンロード</a>（World版合成エンジンを使用することはおすすめします）</div>
+    <div><a href="https://www.dropbox.com/s/eofcjjr5vhlwkot/ZhiYinMeiLin-V1.zip?dl=0" target="_blank">Linne版 ダウンロード</a></div>
   </div>
 </div>

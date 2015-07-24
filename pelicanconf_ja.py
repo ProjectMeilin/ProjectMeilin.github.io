@@ -3,15 +3,16 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'kilfu0701'
-SITENAME = u'徵音梅林'
-SITE_DESCRIPTION = u'一個真正自由的虛擬歌手，任你發想各種創意。'
+SITENAME = u'徴音梅林'
+#SITE_DESCRIPTION = u'一個真正自由的虛擬歌手，任你發想各種創意。'
+SITE_DESCRIPTION = u'自由なバーチャルシンガーとして、いろいろな発想をして楽しむ！'
 DEFAULT_LANG = 'ja'
 SITEURL = ''  #'https://projectmeilin.github.io'
 SITEURL_WITH_L10N = '/' + DEFAULT_LANG
 SITESUBTITLE = (
     u'<div id="site-desc">'
-    u' <div class="side-desc-line">一個真正自由的虛擬歌手，任你發想各種創意。</div>'
-    u' <div class="side-desc-line">語言：<span class="japanese">日語</span>、<span class="mandarin">華語</span></div>'
+    u' <div class="side-desc-line">自由なバーチャルシンガーとして、いろいろな発想をして楽しむ！</div>'
+    u' <div class="side-desc-line">語言：<span class="japanese">日本語</span>、<span class="mandarin">台湾式中国語</span></div>'
     #u' &#10071; <span class="japanese">日本語ONLY</span>版，<span class="mandarin">日華語</span>版'
     u'</div>'
 )
