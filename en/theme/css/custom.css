@@ -53,3 +53,29 @@ ul.listview > li span.list-title {
     display: inline-block;
     font-weight: bold;
 }
+
+
+/* download page, image auto resize. */
+div.p-left {
+    float: left;
+    min-width: 400px;
+    width: 50%;
+}
+div.p-right {
+    float: right;
+    width: 50%;
+    height: auto;
+}
+@media only screen and (max-width: 1216px) {
+    div.p-left {
+        float: none;
+        min-width: inherit;
+        width: auto;
+    }
+
+    div.p-right {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
