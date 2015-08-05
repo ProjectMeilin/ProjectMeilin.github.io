@@ -27,8 +27,9 @@ Lang: zh
       </ul>
       <div class="pad10">目前最新版本為<b>V1.0</b>，<b>日語only</b></div>
       <div class="pad10">
-        <div><a href="https://www.dropbox.com/s/sjyymd0cgk85zcy/ChiOnMeiLin-V1.zip?dl=0" target="_blank">Utau版下載</a>（高度建議使用World系合成引擎）</div>
+        <div><a href="https://www.dropbox.com/s/sjyymd0cgk85zcy/ChiOnMeiLin-V1.zip?dl=0" target="_blank">Utau版下載</a>（高度建議使用World系合成引擎。推薦tn_fnds引擎，且rendering flag設定 e ）</div>
         <div><a href="https://www.dropbox.com/s/eofcjjr5vhlwkot/ZhiYinMeiLin-V1.zip?dl=0" target="_blank">Linne版下載</a></div>
+        <div><a href="/theme/img/song_background_720p_1024.png" download="song_background_720p_1024.png" title="">720P PV背景圖下載</a></div>
       </div>
     </div>
     <div class="p-right">

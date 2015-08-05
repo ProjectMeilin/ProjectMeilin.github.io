@@ -27,8 +27,9 @@ Lang: ja
       </ul>
       <div class="pad10">最新バージョンは<b>V1.0</b>，<b>日本語のみ</b></div>
       <div class="pad10">
-        <div><a href="https://www.dropbox.com/s/sjyymd0cgk85zcy/ChiOnMeiLin-V1.zip?dl=0" target="_blank">Utau版 ダウンロード</a>（World版合成エンジンを使用することはおすすめします）</div>
+        <div><a href="https://www.dropbox.com/s/sjyymd0cgk85zcy/ChiOnMeiLin-V1.zip?dl=0" target="_blank">Utau版 ダウンロード</a>（World版合成エンジンを使用することはおすすめします。tn_fndsエンジンお薦め、レンダリングフラグの設定はeに設置する。）</div>
         <div><a href="https://www.dropbox.com/s/eofcjjr5vhlwkot/ZhiYinMeiLin-V1.zip?dl=0" target="_blank">Linne版 ダウンロード</a></div>
+        <div><a href="/theme/img/song_background_720p_1024.png" download="song_background_720p_1024.png" title="">720P PV背景 ダウンロード</a></div>
       </div>
     </div>
     <div class="p-right">
