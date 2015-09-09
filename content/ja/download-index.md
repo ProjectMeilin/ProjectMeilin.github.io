@@ -3,13 +3,13 @@ Date: 2015-07-16 11:30:00
 Category: Download
 Tags: download
 Author: kilfu0701
-Summary: 音源とツールのダウンロード、oto設定、基本紹介。
 Slug: index
 Lang: ja
 
 <div>
   <div class="clearfix">
     <div class="p-left">
+      <!-- PELICAN_BEGIN_SUMMARY -->
       <div class="sub-lead-title">
         <ruby>
             徴 <rp>(</rp><rt>ち</rt><rp>)</rp>
@@ -25,6 +25,7 @@ Lang: ja
         <li><span class="list-title">イラスト：</span>電腦君（Polliwog @ <a href="https://twitter.com/ecbpolliwog" target="_blank">Twitter</a>）</li>
         <li><span class="list-title">特色：</span>単独音とVCV連続音を録音して，森勢将雅氏の<a href="http://ml.cs.yamanashi.ac.jp/world/" target="_blank">World</a>版合成エンジンの技術を使用し、トリルや咳嗽（がいそう）やため息など、いろいろなエフェクトがあります。</li>
       </ul>
+      <!-- PELICAN_END_SUMMARY -->
       <div class="pad10">最新バージョンは<b>V1.0</b>，<b>日本語のみ</b></div>
       <div class="pad10">
         <div><a href="https://www.dropbox.com/s/sjyymd0cgk85zcy/ChiOnMeiLin-V1.zip?dl=0" target="_blank">Utau版 ダウンロード</a> (World版合成エンジンの使用を推奨します。tn_fndsエンジンとレンダリングフラグeの使用を推奨します。)</div>

@@ -3,14 +3,15 @@ Date: 2015-07-16 11:28:00
 Category: Document
 Tags: document
 Author: kilfu0701
-Summary: 安裝設定，使用教學介紹等等。
 Slug: index
 Lang: en
 
+<!-- PELICAN_BEGIN_SUMMARY -->
 <div>
   <div class="sub-lead-title">Linne介紹：</div>
   <span class="normal-content">由徵音梅林開發委員會提出的新虛擬偶像平台，完全開放原始碼、跨平台，核心是日本山梨大學森勢将雅教授所開發的World演算法引擎 EFB-GW。</span>
   <span class="normal-content"><a href="http://ml.cs.yamanashi.ac.jp/world/" target="_blank">World</a> 演算法有著高速度即時（不需事先產生fraq檔）、高音質、不易失真的優異技術，而且patent free，開放原始碼。</span>
+  <!-- PELICAN_END_SUMMARY -->
   <div class="sub-lead-title">編輯器</div>
   <ul class="listview">
     <li><b>Cadencii</b>: 在Debian/Ubuntu 套件庫裏叫Jcadencii. (upstream: <a href="https://github.com/cadencii" target="_blank">https://github.com/cadencii</a>)</li>

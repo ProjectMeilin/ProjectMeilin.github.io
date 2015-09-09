@@ -3,10 +3,10 @@ Date: 2015-07-16 11:32:00
 Category: Help
 Tags: help
 Author: kilfu0701
-Summary: 
 Slug: contact
 Lang: ja
 
+<!-- PELICAN_BEGIN_SUMMARY -->
 <div>
   <div class="sub-lead-title">連絡先：</div>
   <ul>
@@ -15,3 +15,4 @@ Lang: ja
     <li>連絡代表： <a href="mailto:shoichi.chou@gmail.com">shoichi.chou@gmail.com</a></li>
   </ul>
 </div>
+<!-- PELICAN_END_SUMMARY -->

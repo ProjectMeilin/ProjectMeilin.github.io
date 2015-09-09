@@ -42,8 +42,10 @@ CATEGORY_SAVE_AS = 'category/{slug}.html'
 
 
 # Load plugins
-#PLUGIN_PATHS = ['plugins']
-#PLUGINS = ['i18n_subsites']
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['summary', 'read_more_link']
+SUMMARY_MAX_LENGTH = 10
+READ_MORE_LINK = u'<div class="read_more">更多內容..</div>'
 #I18N_SUBSITES = {
 #    'ja': {
 #        'SITENAME': '',

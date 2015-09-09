@@ -42,8 +42,9 @@ CATEGORY_SAVE_AS = 'category/{slug}.html'
 
 
 # Load plugins
-#PLUGIN_PATHS = ['plugins']
-#PLUGINS = ['i18n_subsites']
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['summary', 'read_more_link']
+READ_MORE_LINK = u'<div class="read_more">Read more..</div>'
 #I18N_SUBSITES = {
 #    'ja': {
 #        'SITENAME': '',
