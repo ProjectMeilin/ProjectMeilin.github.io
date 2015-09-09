@@ -4,16 +4,14 @@ from __future__ import unicode_literals
 
 AUTHOR = u'kilfu0701'
 SITENAME = u'徴音梅林'
-#SITE_DESCRIPTION = u'一個真正自由的虛擬歌手，任你發想各種創意。'
-SITE_DESCRIPTION = u'自由なバーチャルシンガーとして、いろいろな発想をして楽しむ！'
+SITE_DESCRIPTION = u'自由なソフトウェア バーチャルシンガーです。使い方はあなたの創意工夫次第です。'
 DEFAULT_LANG = 'ja'
 SITEURL = ''  #'https://projectmeilin.github.io'
 SITEURL_WITH_L10N = '/' + DEFAULT_LANG
 SITESUBTITLE = (
     u'<div id="site-desc">'
-    u' <div class="side-desc-line">自由なバーチャルシンガーとして、いろいろな発想をして楽しむ！</div>'
+    u' <div class="side-desc-line">自由なソフトウェア バーチャルシンガーです。使い方はあなたの創意工夫次第です。</div>'
     u' <div class="side-desc-line">語言：<span class="japanese">日本語</span>、<span class="mandarin">台湾式中国語</span></div>'
-    #u' &#10071; <span class="japanese">日本語ONLY</span>版，<span class="mandarin">日華語</span>版'
     u'</div>'
 )
 PATH = 'content/ja'
@@ -76,8 +74,8 @@ USE_CUSTOM_MENU = True
 CUSTOM_MENUITEMS = (
     (u'プロジェクト', 'https://github.com/ProjectMeilin', '_blank'),
     (u'ダウンロード', '/' + DEFAULT_LANG + '/download/index.html', ''),
-    (u'使用紹介', '/' + DEFAULT_LANG + '/document/index.html', ''),
-    (u'問い合わせ', '/' + DEFAULT_LANG + '/help/contact.html', ''),
+    (u'使い方', '/' + DEFAULT_LANG + '/document/index.html', ''),
+    (u'連絡先', '/' + DEFAULT_LANG + '/help/contact.html', ''),
 )
 
 DEFAULT_PAGINATION = 10
