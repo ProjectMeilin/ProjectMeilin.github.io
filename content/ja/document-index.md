@@ -1,4 +1,4 @@
-Title: 使用紹介
+Title: 使い方
 Date: 2015-07-16 11:28:00
 Category: Document
 Tags: document
