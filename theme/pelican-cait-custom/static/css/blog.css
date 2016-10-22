@@ -32,6 +32,17 @@ body {
   #site-title:hover {
     color: #38c5c5; }
 
+#site-icon {
+  text-align:center;
+}
+#site-icon img {
+  width:250px;
+  height:250px;
+}
+#site-menu {
+  display: none;
+}
+
 #site-desc {
   font-size: 1.3em;
   padding: 6px 30px;
@@ -127,6 +138,10 @@ body {
     .paginator a:hover {
       color: #38c5c5; }
 
+.toolbar-top-fix {
+  display: none;
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    Theses examples override the primary ('mobile first') styles.
@@ -149,6 +164,7 @@ body {
     padding: 0; }
 
   #nav-links {
+    display: none;
     text-align: center;
     padding: 0;
     font-size: 1.8em; }
@@ -158,11 +174,55 @@ body {
     #nav-links a {
       display: inline-block; }
 
+  #site-desc {
+    padding-top: 70px;
+  }
+
+  #site-toolbar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
+    background-color: black;
+    z-index: 999;
+  }
+
+  #site-title {
+    display: inline-block;
+    float: left;
+    position: relative;
+  }
   #site-title h1 {
-    margin-top: 0; }
+  }
+  #site-icon {
+    float: left;
+    position: relative;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+  #site-icon img {
+    width: 65px;
+    height: 65px;
+  }
+  #site-menu {
+    display: inline-block;
+    float: left;
+    width: 70px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  #site-menu i {
+    font-size: 50px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+  }
 
   #site-header {
-    margin-left: 18px; }
+    margin-left: 0; }
 
   .side-shadow {
     -webkit-box-shadow: 0 3px 12px 3px #8e927e;
@@ -179,6 +239,7 @@ body {
     }
 }
 
+/*
 @media only screen and (max-width: 640px) {
   #nav-links {
     font-size: 1.1em; }
@@ -192,7 +253,7 @@ body {
 
   #site-info {
     font-size: 0.6em; } }
-
+*/
 
 /* responsive view for embeded youtube video */
 .video-container {

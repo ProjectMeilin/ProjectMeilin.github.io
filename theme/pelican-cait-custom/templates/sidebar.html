@@ -1,9 +1,15 @@
 <header id="sidebar" class="side-shadow">
     <hgroup id="site-header">
-        <a id="site-title" href="/"><h1><i class="icon-meilin"></i> {{ SITENAME }}</h1></a>
-        <div style="text-align:center;">
-            <img src="{{ SITEURL }}/theme/img/meilin_logo_371.png" style="width:250px; height:250px;" />
+        <div id="site-toolbar" class="clearfix">
+            <div id="site-icon">
+                <img src="{{ SITEURL }}/theme/img/meilin_logo_371.png" />
+            </div>
+            <a id="site-title" href="/"><h1><i class="icon-meilin"></i> {{ SITENAME }}</h1></a>
+            <div id="site-menu"><!-- hide in desktop browser mode -->
+                <i class="material-icons">list</i>
+            </div>
         </div>
+
         {% if SITESUBTITLE %} {{ SITESUBTITLE }} {% endif %}
     </hgroup>
     <nav>
