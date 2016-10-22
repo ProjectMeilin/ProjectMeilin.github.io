@@ -48,8 +48,18 @@ pip install -r requirements.txt
 make serve PORT=8000
 ```
 
-## Deploy
-TODO
+## Deploy new pages into gh-pages
+```bash
+git checkout gh-pages
+git fetch --all
+git checkout origin/source -- output
+cp -pr output/* ./ && rm -rf output
+git add . && git commit -m "update new files to gh-pages"
+
+git checkout master
+git merge gh-pages
+git push --all
+```
 
 ## Contributors
 - [kilfu0701](https://github.com/kilfu0701) (kilfu0701@gmail.com)
