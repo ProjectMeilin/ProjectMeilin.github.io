@@ -94,7 +94,7 @@ body {
   margin: 3em 0; }
 
 .entry-header {
-  font-family: "Oswald", sans-serif;
+  /*font-family: "Oswald", sans-serif;*/
   font-variant: bold; }
   .entry-header a {
     color: mediumaquamarine;
@@ -148,6 +148,10 @@ body {
    Modify as content requires.
    ========================================================================== */
 @media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 1em;
+  }
+
   /* Style adjustments for viewports that meet the condition */
   #sidebar {
     position: static;
