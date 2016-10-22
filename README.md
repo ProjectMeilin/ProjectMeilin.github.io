@@ -52,10 +52,10 @@ make serve PORT=8000
 TODO
 
 ## Contributors
-[kilfu0701](https://github.com/kilfu0701) (kilfu0701@gmail.com)
-[MGdesigner](https://github.com/MGdesigner)
-[atsushieno](https://github.com/atsushieno)
-[Yuan CHAO](https://github.com/yuanchao)
+- [kilfu0701](https://github.com/kilfu0701) (kilfu0701@gmail.com)
+- [MGdesigner](https://github.com/MGdesigner)
+- [atsushieno](https://github.com/atsushieno)
+- [Yuan CHAO](https://github.com/yuanchao)
 
 ## License
 MIT
