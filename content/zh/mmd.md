@@ -5,6 +5,7 @@ Tags: MMD,MikuMikuDance
 Author: kilfu0701
 Slug: mmd
 Lang: zh
+OgImage: theme/img/ogp/meilin_mmd.png
 
 <div>
   <p>恭喜！小梅有MMD模組囉！</p>
