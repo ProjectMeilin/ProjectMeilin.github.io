@@ -6,7 +6,7 @@ AUTHOR = u'kilfu0701'
 SITENAME = u'徴音梅林'
 SITE_DESCRIPTION = u'自由なソフトウェア バーチャルシンガーです。使い方はあなたの創意工夫次第です。'
 DEFAULT_LANG = 'ja'
-SITEURL = ''  #'https://projectmeilin.github.io'
+SITEURL = 'http://projectmeilin.github.io'
 SITEURL_WITH_L10N = '/' + DEFAULT_LANG
 SITESUBTITLE = (
     u'<div id="site-desc">'
@@ -87,4 +87,4 @@ DEFAULT_PAGINATION = 10
 THEME = 'theme/pelican-cait-custom'
 
 DISQUS_SITENAME = 'meilin'
-
+USE_OPEN_GRAPH = True
