@@ -1,7 +1,7 @@
 # 徵音梅林Web
 徵音梅林 Website on Github.io [https://projectmeilin.github.io/](https://projectmeilin.github.io/)
 
-![](http://projectmeilin.github.io/theme/img/markdown/top.png)
+![Alt text](top.png "Optional title")
 
 ## 開發環境 (environment)
 - python2.7 or python3

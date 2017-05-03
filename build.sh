@@ -15,5 +15,6 @@ done
 cp index.html output/index.html
 cp -pr output/ja/theme output/theme
 cp -pr output/ja/theme/img/favicon.ico output/
+cp -pr theme/pelican-cait-custom/static/img/markdown/* output/
 cp README.md output/README.md
 rm -rf *.pyc
