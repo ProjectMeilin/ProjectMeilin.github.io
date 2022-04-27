@@ -31,7 +31,7 @@ root@4f062e1e7cc3:/work/src#
 4. setup python3 virtualenv and install packages
 ```bash
 ## run in container
-source ENV/
+virtualenv ENV
 source ENV/bin/activate
 
 ## you will enter venv
