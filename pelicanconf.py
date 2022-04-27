@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'kilfu0701'
 SITENAME = u'徵音梅林'
-SITEURL = ''  #'https://projectmeilin.github.io'
+SITEURL = '//projectmeilin.github.io'  #'https://projectmeilin.github.io'
 SITESUBTITLE = (
     u'一個真正自由的虛擬歌手，任你發想各種創意。'
     u'<br>'

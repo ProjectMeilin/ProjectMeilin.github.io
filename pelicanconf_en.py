@@ -1,19 +1,17 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+#!/usr/bin/env python3
 
-AUTHOR = u'kilfu0701'
-SITENAME = u'徵音梅林'
-SITE_DESCRIPTION = u'一個真正自由的虛擬歌手，任你發想各種創意。'
+AUTHOR = 'kilfu0701'
+SITENAME = '徵音梅林'
+SITE_DESCRIPTION = '一個真正自由的虛擬歌手，任你發想各種創意。'
 DEFAULT_LANG = 'en'
-SITEURL = 'http://projectmeilin.github.io'
+SITEURL = '//projectmeilin.github.io'
 SITEURL_WITH_L10N = '/' + DEFAULT_LANG
 SITESUBTITLE = (
-    u'<div>'
-    u' <div class="side-desc-line">一個真正自由的虛擬歌手，任你發想各種創意。</div>'
-    u' <div class="side-desc-line">語言：<span class="japanese">日語</span>、<span class="mandarin">華語</span></div>'
-    #u'&#10071; <span class="japanese">日本語ONLY</span>版，<span class="mandarin">日華語</span>版'
-    u'</div>'
+    '<div>'
+    ' <div class="side-desc-line">一個真正自由的虛擬歌手，任你發想各種創意。</div>'
+    ' <div class="side-desc-line">語言：<span class="japanese">日語</span>、<span class="mandarin">華語</span></div>'
+    #'&#10071; <span class="japanese">日本語ONLY</span>版，<span class="mandarin">日華語</span>版'
+    '</div>'
 )
 PATH = 'content/en'
 
@@ -43,8 +41,12 @@ CATEGORY_SAVE_AS = 'category/{slug}.html'
 
 # Load plugins
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['summary', 'read_more_link']
-READ_MORE_LINK = u'<div class="read_more">Read more..</div>'
+PLUGINS = ['summary', 'read_more']
+SUMMARY_MAX_LENGTH = 100
+SUMMARY_END_SUFFIX = '...'
+READ_MORE_LINK = '<div class="read_more">Read more..</div>'
+#READ_MORE_LINK_FORMAT = '<a class="read-more" href="/{url}">{text}</a>'
+
 #I18N_SUBSITES = {
 #    'ja': {
 #        'SITENAME': '',
@@ -60,7 +62,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ('Pelican', 'http://getpelican.com/'),
+    ('Pelican', 'https://getpelican.com/'),
     #('Python.org', 'http://python.org/'),
     #('Jinja2', 'http://jinja.pocoo.org/'),
     #('You can modify those links in your config file', '#'),

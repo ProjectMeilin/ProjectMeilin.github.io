@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  project_meillin_wiki:
+    build: .
+    container_name: project_meillin_wiki
+    volumes:
+      - .:/work/src
+    command: "tail -f /dev/null"
+    working_dir: /work/src
+    privileged: true
+    init: true
+    environment:
+      - LC_ALL=en_US.utf8
+    ports:
+      - 8000:8000

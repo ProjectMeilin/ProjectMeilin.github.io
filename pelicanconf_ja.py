@@ -1,18 +1,16 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+#!/usr/bin/env python3
 
-AUTHOR = u'kilfu0701'
-SITENAME = u'徴音梅林'
-SITE_DESCRIPTION = u'自由なソフトウェア バーチャルシンガーです。使い方はあなたの創意工夫次第です。'
+AUTHOR = 'kilfu0701'
+SITENAME = '徴音梅林'
+SITE_DESCRIPTION = '自由なソフトウェア バーチャルシンガーです。使い方はあなたの創意工夫次第です。'
 DEFAULT_LANG = 'ja'
-SITEURL = 'http://projectmeilin.github.io'
+SITEURL = '//projectmeilin.github.io'
 SITEURL_WITH_L10N = '/' + DEFAULT_LANG
 SITESUBTITLE = (
-    u'<div id="site-desc">'
-    u' <div class="side-desc-line">自由なソフトウェア バーチャルシンガーです。使い方はあなたの創意工夫次第です。</div>'
-    u' <div class="side-desc-line">語言：<span class="japanese">日本語</span>、<span class="mandarin">台湾式中国語</span></div>'
-    u'</div>'
+    '<div id="site-desc">'
+    ' <div class="side-desc-line">自由なソフトウェア バーチャルシンガーです。使い方はあなたの創意工夫次第です。</div>'
+    ' <div class="side-desc-line">語言：<span class="japanese">日本語</span>、<span class="mandarin">台湾式中国語</span></div>'
+    '</div>'
 )
 PATH = 'content/ja'
 
@@ -42,8 +40,13 @@ CATEGORY_SAVE_AS = 'category/{slug}.html'
 
 # Load plugins
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['summary', 'read_more_link']
-READ_MORE_LINK = u'<div class="read_more">続きを読む..</div>'
+PLUGINS = ['summary', 'read_more']
+SUMMARY_MAX_LENGTH = 100
+SUMMARY_END_SUFFIX = '...'
+READ_MORE_LINK = '<div class="read_more">続きを読む..</div>'
+#READ_MORE_LINK_FORMAT = '<a class="read-more" href="/{url}">{text}</a>'
+
+
 #I18N_SUBSITES = {
 #    'ja': {
 #        'SITENAME': '',
@@ -59,7 +62,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ('Pelican', 'http://getpelican.com/'),
+    ('Pelican', 'https://getpelican.com/'),
     #('Python.org', 'http://python.org/'),
     #('Jinja2', 'http://jinja.pocoo.org/'),
     #('You can modify those links in your config file', '#'),
@@ -73,10 +76,10 @@ SOCIAL = (
 
 USE_CUSTOM_MENU = True
 CUSTOM_MENUITEMS = (
-    (u'プロジェクト', 'https://github.com/ProjectMeilin', '_blank'),
-    (u'ダウンロード', '/' + DEFAULT_LANG + '/download/index.html', ''),
-    (u'使い方', '/' + DEFAULT_LANG + '/document/index.html', ''),
-    (u'連絡先', '/' + DEFAULT_LANG + '/help/contact.html', ''),
+    ('プロジェクト', 'https://github.com/ProjectMeilin', '_blank'),
+    ('ダウンロード', '/' + DEFAULT_LANG + '/download/index.html', ''),
+    ('使い方', '/' + DEFAULT_LANG + '/document/index.html', ''),
+    ('連絡先', '/' + DEFAULT_LANG + '/help/contact.html', ''),
 )
 
 DEFAULT_PAGINATION = 10
