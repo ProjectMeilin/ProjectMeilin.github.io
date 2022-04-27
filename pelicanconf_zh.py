@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-from __future__ import unicode_literals
 
 AUTHOR = 'kilfu0701'
 SITENAME = '徵音梅林'
 SITE_DESCRIPTION = '一個真正自由的虛擬歌手，任你發想各種創意。'
 DEFAULT_LANG = 'zh'
-SITEURL = 'http://projectmeilin.github.io'
+SITEURL = '//projectmeilin.github.io'
 SITEURL_WITH_L10N = '/' + DEFAULT_LANG
 SITESUBTITLE = (
     '<div id="site-desc">'
@@ -42,9 +41,11 @@ CATEGORY_SAVE_AS = 'category/{slug}.html'
 
 # Load plugins
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['summary', 'read_more_link']
-SUMMARY_MAX_LENGTH = 10
+PLUGINS = ['summary', 'read_more']
+SUMMARY_MAX_LENGTH = 100
+SUMMARY_END_SUFFIX = '...'
 READ_MORE_LINK = '<div class="read_more">更多內容..</div>'
+#READ_MORE_LINK_FORMAT = '<a class="read-more" href="/{url}">{text}</a>'
 #I18N_SUBSITES = {
 #    'ja': {
 #        'SITENAME': '',

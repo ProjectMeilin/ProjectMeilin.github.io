@@ -8,3 +8,9 @@ services:
       - .:/work/src
     command: "tail -f /dev/null"
     working_dir: /work/src
+    privileged: true
+    init: true
+    environment:
+      - LC_ALL=en_US.utf8
+    ports:
+      - 8000:8000

@@ -79,9 +79,9 @@ endif
 
 serve-global:
 ifdef SERVER
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server 80 $(SERVER)
+	cd $(OUTPUTDIR) && $(PY) -m pelican.server 8000 $(SERVER)
 else
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server 80 0.0.0.0
+	cd $(OUTPUTDIR) && $(PY) -m pelican.server 8000 0.0.0.0
 endif
 
 
